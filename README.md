@@ -1,0 +1,2 @@
+# MedApp
+Aplikacja pozwala na dodawanie pacjentów oraz tworzenie ich historii choroby. Istnieje możliwość pojedyńczego usunięcia choroby oraz pacjenta. Dodatkowo można przeszukiwać choroby wpisując kryteria w pole do wyszukiwania. Aplikacja składa się z dwóch modułów. Aby poprawnie uruchomić aplikację należy uruchomić w pierwszej kolejności DemoApplication odpowiedzialnią za moduł spring-boot a następnie JavaFxApplication.
