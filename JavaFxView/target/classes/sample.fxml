@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.geometry.Insets?>
+<BorderPane id="AnchorPane" prefHeight="651.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerPatient">
+
+    <top>
+        <VBox >
+            <HBox alignment="BASELINE_CENTER">
+            <Label>Wyszukiwanie chorób u pacjenta</Label>
+            <TextField fx:id="filterField" maxWidth="100.0"  prefHeight="10.0" prefWidth="700.0" promptText="opis lub zalecenia"/>
+            </HBox>
+        <TableView fx:id="tableviewPatient" editable="true" layoutY="20" prefHeight="170.0" prefWidth="700.0" BorderPane.alignment="CENTER" />
+        </VBox>
+    </top>
+    <center>
+
+        <TableView fx:id="tableviewDisease" editable="true" prefHeight="170.0" prefWidth="700.0" BorderPane.alignment="CENTER" />
+    </center>
+<!--<children>-->
+    <bottom>
+<GridPane >
+    <children>
+        <VBox >
+            <Label alignment="BASELINE_CENTER">Nowy pacjent</Label>
+            <TextField fx:id="medicationField" prefWidth="50.0"   promptText="Zalecenia"/>
+            <TextField fx:id="descriptionDiseaseField"  prefWidth="50.0"  promptText="Historia choroby"/>
+            <TextField fx:id="personalIdField"  prefWidth="50.0"  promptText="pesel pacjenta"/>
+
+            <HBox>
+            <Button fx:id="add" mnemonicParsing="false"  prefHeight="30.0" text="Dodaj" >
+            </Button>
+            <Button fx:id="delete" mnemonicParsing="false" prefHeight="30.0" text="Usuń">
+            </Button>
+            </HBox>
+        </VBox>
+    </children>
+</GridPane>
+
+</bottom>
+
+
+
+
+
+<!--            <TextField fx:id="medicationField" prefWidth="10.0" layoutX="650" layoutY="630" promptText="Surname"/>-->
+
+
+        <!--        <TextField fx:id="filterField" layoutX="105.0" layoutY="91.0" prefHeight="25.0" prefWidth="348.0"-->
+        <!--                   style="-fx-background-color: #E5E7E9;"/>-->
+
+
+        <!--        <Button fx:id="delete" layoutX="655" layoutY="620" text="delete">-->
+
+        <!--        </Button>-->
+        <!--        <TextField fx:id="descriptionDiseaseField" layoutX="20" prefWidth="10.0" layoutY="590" promptText="Name">
+
+                </TextField>
+                <TextField fx:id="medicationField" layoutX="185" prefWidth="10.0" layoutY="590" promptText="Surname">
+
+                </TextField>
+                <TextField fx:id="personalIdField" layoutX="350" prefWidth="10.0" layoutY="590" promptText="PersonalId">
+
+                </TextField>-->
+        <!--        <TextField fx:id="medicalHistoryField" layoutX="20" layoutY="620" promptText="MedicalHistory">-->
+
+        <!--        </TextField>-->
+
+
+
+        <!--    <TextField fx:id="medicationField" layoutX="185" prefWidth="10.0" layoutY="590" promptText="Surname">-->
+
+        <!--    </TextField>-->
+        <!--    <TextField fx:id="personalIdField" layoutX="350" prefWidth="10.0" layoutY="590" promptText="PersonalId">-->
+
+        <!--    </TextField>&ndash;&gt;-->
+        <!--        <TextField fx:id="medicalHistoryField" layoutX="20" layoutY="620" promptText="MedicalHistory">-->
+
+        <!--        </TextField>-->
+<!--</children>-->
+</BorderPane>

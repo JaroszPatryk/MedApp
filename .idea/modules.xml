@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DatabaseConnection/DatabaseConnection.iml" filepath="$PROJECT_DIR$/DatabaseConnection/DatabaseConnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFxView/JavaFxView.iml" filepath="$PROJECT_DIR$/JavaFxView/JavaFxView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_Luxmed.iml" filepath="$PROJECT_DIR$/Zadanie_Luxmed.iml" />
+    </modules>
+  </component>
+</project>
